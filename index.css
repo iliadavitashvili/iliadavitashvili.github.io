@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    
+    
+    
+    
+    
+}
+
+
+
+ 
+/* @media screen and (min-width: 300px){
+    
+   header,footer,main{
+    width: 100vw;
+   }
+   header{
+    max-width: 100%;
+   }
+} */
+
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    background:linear-gradient(green, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent
+}
+header{
+    /* max-width: 700px; */
+    border: 2px dashed green;
+    border-radius: 25px;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+
+}
+#doogs{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    color: whitesmoke;
+    height: 100%;
+    
+    
+    /* max-height: 700px; 
+    max-width: 350px; */
+    
+    padding: 5px;
+    margin: auto;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-position:center;
+    
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 20px;
+    
+    
+}
+h3 , h5{
+    font-size: 3.5rem;
+    display: inline-block;
+    margin: 2px;
+    text-shadow: 2px 1px black;
+    
+    
+    
+}
+.qwe{
+    width: 100%;
+    
+    
+    
+    
+    border-radius: 20px;
+}
+#smalls{
+    /* max-width: 350px; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    border-radius: 25px;
+    margin: 0 auto;
+    
+}
+.header-icons{
+    height: 50%;
+   
+    margin: auto;
+    
+}
+
+main{
+    height: 77vh;
+   
+}
+
+footer{
+    padding-top: 50px;
+    display: flex;
+    border-radius: 25px;
+    /* max-width: 700px; */
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+#dis-like{
+    width: 30%;
+    height: 10%;
+    margin-top: 15%;
+    transform: rotate(-45deg);
+    
+    
+}
+
+.but-img{
+    width: 100px;
+    
+    
+    
+}
+
+.like-nope{
+    border-radius: 10px 10px 10px 1px;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    margin:0.5vw 4vw ;
+    border-radius: 500%;
+    
+    /* width: 10v;
+    height: 10vh; */
+    
+    
+    
+    
+    
+    
+}
+#nope{
+    background-color: whitesmoke
+}
+#nope:hover{
+    background-color: #FFE7EF
+}
+#like{
+    background-color: whitesmoke
+}
+#like:hover{
+    background-color: #DBFFF4
+}
+
+.like-nope:hover{
+    
+    width: 150px;
+    background-color: #FFE7EF;
+    border-radius: 100px;
+    box-shadow: 1px -1px 1px 1px gray;
+    
+    
+    
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    body,header,footer,main{
+        margin: 0 auto;
+        width: 60%;
+        
+    }
+    main{
+        height: 60%
+    };
+    .but-img{
+        width: 50%;
+    }
+    body{
+        font-size: 10px;
+    }
+    
+
+  }
